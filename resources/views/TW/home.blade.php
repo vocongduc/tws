@@ -74,7 +74,8 @@
                     cursus
                     impediet augue egestas id. Suspendisse dolor lectus, pellentesque quis tincidunt ac, dictum id
                     neque. </p>
-                <a href="{{ route('services') }}">All Services <i class="fa fa-angle-right" aria-hidden="true"></i></a>
+                <!-- <a href="{{url('home/abcxyz')}}">All Services <i class="fa fa-angle-right" aria-hidden="true"></i></a> -->
+                <a href="{{route('asd')}}">All Services <i class="fa fa-angle-right" aria-hidden="true"></i></a>
             </div>
             <div class="col-lg-8">
                 <svg id="bg-services" width="100%" viewBox="0 0 1000 800">
