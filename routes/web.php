@@ -18,7 +18,13 @@ Route::group(['prefix' => 'home'], function () {
     Route::get('services', function () {
         return view('TW.services');
     })->name('services');
-    Route::get('abc', function () {
-        return view('TW.abc');
-    })->name('abc'); 
+
+
+     Route::get('abcxyz',function(){
+     	return view('TW.abc');
+     })->name('asd');
+
+     Route::get('tham',function(){
+     	return view('TW.tham');
+     });
 });
