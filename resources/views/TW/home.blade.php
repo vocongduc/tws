@@ -59,7 +59,7 @@
                         dictum id neque.
                     </small>
                 </p>
-                <a href="#">Learn More <i class="fa fa-angle-right" aria-hidden="true"></i></a>
+                <a href="{{route('dev')}}">Learn More <i class="fa fa-angle-right" aria-hidden="true"></i></a>
             </div>
         </div>
     </div>
@@ -249,6 +249,12 @@
             </div>
         </div>
     </div>
+    <a class="carousel-control-prev" href="#demo" data-slide="prev">
+        <span class="carousel-control-prev-icon"></span>
+    </a>
+    <a class="carousel-control-next" href="#demo" data-slide="next">
+        <span class="carousel-control-next-icon"></span>
+    </a>
 </div>
 <div class="container-fluid gtco-features-list">
     <div class="container">

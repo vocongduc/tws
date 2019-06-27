@@ -24,6 +24,30 @@ Route::group(['prefix' => 'home'], function () {
      	return view('TW.websitedesign');
      })->name('websitedesign');
 
+     Route::get('tham',function(){
+     	return view('TW.tham');
+     });
+
+     Route::get('about',function(){
+        return view('TW.about');
+     })->name('about');
+
+     Route::get('introduce',function(){
+        return view('TW.introduce');
+     })->name('introduce');
+
+     Route::get('dev',function(){
+        return view('TW.dev');
+     })->name('dev');
+
+     Route::get('design',function(){
+        return view('TW.design');
+     })->name('design');
+
+     Route::get('game',function(){
+        return view('TW.game');
+     })->name('game');
+
       Route::get('softwareDesign',function(){
     	return view('TW.softwaredesign');
      })->name('softwaredesign');
