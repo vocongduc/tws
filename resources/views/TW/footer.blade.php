@@ -10,7 +10,7 @@
                 </div>
                 <div class="col-lg-6">
                     <div class="row">
-                        <div class="col-6">
+                        <div class="col-7">
                             <h4>Company</h4>
                             <ul class="nav flex-column company-nav">
                                 <li class="nav-item"><a class="nav-link" href="#">Home</a></li>
@@ -22,7 +22,7 @@
                             </ul>
                         </div>
 
-                        <div class="col-6">
+                        <div class="col-5">
                             <h4>Services</h4>
                             <ul class="nav flex-column services-nav">
                                 <li class="nav-item"><a class="nav-link" href="#">Web Design</a></li>
@@ -33,7 +33,7 @@
                                 <li class="nav-item"><a class="nav-link" href="#">Analytic</a></li>
                             </ul>
                         </div>
-                        <div class="col-6">
+                        <div class="col-7">
                             <h4></h4>
                             <ul class="nav flex-column services-nav">
                                 <li class="nav-item"><a class="nav-link mr-3" href="#"><i
@@ -44,7 +44,7 @@
                                             class="fa fa-skype mr-3"></i>Talent Wins</a></li>
                             </ul>
                         </div>
-                        <div class="col-6">
+                        <div class="col-5">
                             <h4 class="mt-5">Fllow Us</h4>
                             <ul class="nav follow-us-nav">
                                 <li class="nav-item"><a class="nav-link pl-0" href="#"><i class="fa fa-facebook"
