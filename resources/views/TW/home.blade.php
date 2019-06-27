@@ -75,7 +75,7 @@
                     impediet augue egestas id. Suspendisse dolor lectus, pellentesque quis tincidunt ac, dictum id
                     neque. </p>
                 <!-- <a href="{{url('home/abcxyz')}}">All Services <i class="fa fa-angle-right" aria-hidden="true"></i></a> -->
-                <a href="{{route('asd')}}">All Services <i class="fa fa-angle-right" aria-hidden="true"></i></a>
+                <a href="{{route('services')}}">All Services <i class="fa fa-angle-right" aria-hidden="true"></i></a>
             </div>
             <div class="col-lg-8">
                 <svg id="bg-services" width="100%" viewBox="0 0 1000 800">
@@ -94,8 +94,8 @@
                             <div class="oval"><img class="card-img-top" src="{{ asset('') }}TW/images/web-design.png" alt=""></div>
                             <div class="card-body">
                                 <h3 class="card-title">Website Design</h3>
-                                <p class="card-text">Nullam quis libero in lorem accumsan sodales. Nam vel nisi
-                                    eget.</p>
+                                <p class="card-text">Nullam quis libero in lorem accumsan sodales. Nam vel nisi eget.</p>
+                                 
                             </div>
                         </div>
                         <div class="card text-center">
@@ -112,8 +112,8 @@
                             <div class="oval"><img class="card-img-top" src="{{ asset('') }}TW/images/seo.png" alt=""></div>
                             <div class="card-body">
                                 <h3 class="card-title">App Development</h3>
-                                <p class="card-text">Nullam quis libero in lorem accumsan sodales. Nam vel nisi
-                                    eget.</p>
+                                <p class="card-text">Nullam quis libero in lorem accumsan sodales. Nam vel nisi eget.</p>
+                                   
                             </div>
                         </div>
                         <div class="card text-center">
@@ -121,8 +121,8 @@
                             </div>
                             <div class="card-body">
                                 <h3 class="card-title">Programmers Provider Service</h3>
-                                <p class="card-text">Nullam quis libero in lorem accumsan sodales. Nam vel nisi
-                                    eget.</p>
+                                <p class="card-text">Nullam quis libero in lorem accumsan sodales. Nam vel nisi eget.</p>
+                                   
                             </div>
                         </div>
                     </div>
@@ -434,7 +434,7 @@
                     <div class="card-body text-left pr-0 pl-0">
                         <h5>MoodoGo Portable Diffuser</h5>
                         <p class="card-text">Apple  doled out its 2019 Design Awards at its Worldwide Developer Conference this afternoon,
-                             highlighting a range of apps that work as beautifully
+                             highlighting a range of aps that work as beautifully
                             . . . </p>
                         <a href="index.php?view=news">READ MORE <i class="fa fa-angle-right" aria-hidden="true"></i></a>
                     </div>
