@@ -20,11 +20,20 @@ Route::group(['prefix' => 'home'], function () {
     })->name('services');
 
 
-     Route::get('abcxyz',function(){
-     	return view('TW.abc');
-     })->name('asd');
+     Route::get('websitedesign',function(){
+     	return view('TW.websitedesign');
+     })->name('websitedesign');
 
-     Route::get('tham',function(){
-     	return view('TW.tham');
-     });
+      Route::get('softwareDesign',function(){
+    	return view('TW.softwaredesign');
+     })->name('softwaredesign');
+
+
+         Route::get('appdevelopment',function(){
+    	return view('TW.appdevelopment');
+     })->name('appdevelopment');
+
+          Route::get('programmers',function(){
+    	return view('TW.programmers');
+     })->name('programmers');
 });
