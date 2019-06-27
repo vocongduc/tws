@@ -17,7 +17,8 @@
     <link rel="stylesheet" href="{{ asset('') }}TW/css/bootstrap.min.css">
     <!-- custom CSS -->
     <link rel="stylesheet" href="{{ asset('') }}TW/css/style.css">
-
+    <link rel="stylesheet" href="{{ asset('') }}TW/css/main.css">
+<link rel="stylesheet" href="{{ asset('') }}TW/css/util.css">
     
     <title>Solution - Free Responsive Agency Template using Bootstrap 4</title>
     <style>

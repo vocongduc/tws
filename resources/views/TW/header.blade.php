@@ -8,7 +8,8 @@
             <div id="my-nav" class="collapse navbar-collapse mt-3">
                 <ul class="navbar-nav mr-auto">
                     <li class="nav-item"><a class="nav-link" href="{{ url('/') }}">Home</a></li>
-                    <li class="nav-item"><a class="nav-link" href="#services">Services</a></li>
+                    <li class="nav-item"><a class="nav-link" href="{{route('services')}}">Services</a>
+                    </li>
                     <li class="nav-item"><a class="nav-link" href="#about">About</a></li>
                     <li class="nav-item"><a class="nav-link" href="#news">News</a></li>
                     <li class="nav-item"><a class="nav-link" href="#contact">Contact</a></li>
