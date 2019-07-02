@@ -3,14 +3,14 @@
 <div class="container-fluid gtco-banner-area">
     <div class="container">
         <div class="row">
-            <div class="col-md-6">
-                <h1> We promisess to bring
+            <div class="col-12 col-sm-12 col-md-6 col-lg-6">
+                <h1> We promises to bring
                     the best <span>solution</span> for
                     your business. </h1>
                 <p>Talent wins is committed to providing reliable, quality and professional services</p>
                 <a href="#contact">Contact Us <i class="fa fa-angle-right" aria-hidden="true"></i></a>
             </div>
-            <div class="col-md-6">
+            <div class="col-12 col-sm-12 col-md-6 col-lg-6">
                 <div class="card"><img class="card-img-top img-fluid" src="{{ asset('') }}TW/images/banner-img.png" alt=""></div>
             </div>
         </div>
@@ -19,7 +19,7 @@
 <div class="container-fluid gtco-feature" id="services">
     <div class="container">
         <div class="row">
-            <div class="col-md-7">
+            <div class="col-12 col-sm-12 col-lg-7 col-md-7">
                 <div class="cover">
                     <div class="card">
                         <svg class="back-bg" width="100%" viewBox="0 0 900 700"
@@ -48,7 +48,7 @@
                     </div>
                 </div>
             </div>
-            <div class="col-md-5">
+            <div class="col-12 col-sm-12 col-lg-5 col-md-5">
                 <h2>Professional Design, Development Of Websites, Software And Applications</h2>
                 <p> Lorem ipsum dolor sit amet, consectetur adipiscing elit. In rhoncus turpis nisl, vitae dictum mi
                     semper convallis. Ut sapien leo, varius ac dapibus a, cursus quis ante. </p>
@@ -157,7 +157,7 @@
             </clipPath>
 
             <!-- xlink:href for modern browsers, src for IE8- -->
-            <image clip-path="url(#ctm)" xlink:href="images/word-map.png" height="800px" width="100%"
+            <image clip-path="url(#ctm)" xlink:href="{{asset('TW/images/word-map.png')}}" height="800px" width="100%"
                 class="svg__image">
 
             </image>
@@ -377,7 +377,7 @@
                 <div class="card text-center"><img class="card-img-top" src="{{ asset('') }}TW/images/news/googleMap.jpg" alt="">
                     <div class="card-body text-left pr-0 pl-0">
                         <h5>Google Maps now allows users in India to check live status of trains</h5>
-                        <p class="card-text">Apple unveiled a range of India-specific features in iOS 13 at WWDC this
+                        <p class="card-text mb-3">Apple unveiled a range of India-specific features in iOS 13 at WWDC this
                              week as it begins to adapt its software for
                             . . . </p>
                         <a href="index.php?view=news">READ MORE <i class="fa fa-angle-right" aria-hidden="true"></i></a>
@@ -388,9 +388,8 @@
                 <div class="card text-center"><img class="card-img-top" src="{{ asset('') }}TW/images/news/carMap-apple.png" alt="">
                     <div class="card-body text-left pr-0 pl-0">
                         <h5> Apple updates CarPlay with new home screen and Siri Suggestions.</h5>
-                        <p class="card-text">The revamped in-car system looks
-                             dramatically better, leaving behind the faux iPhone layout for
-                            . . . </p>
+                        <p class="card-text mb-3">The revamped in-car system looks
+                             dramatically better,...</p>
                         <a href="index.php?view=news">READ MORE <i class="fa fa-angle-right" aria-hidden="true"></i></a>
                     </div>
                 </div>
@@ -399,7 +398,7 @@
                 <div class="card text-center"><img class="card-img-top" src="{{ asset('') }}TW/images/news/apple-news.jpg" alt="">
                     <div class="card-body text-left pr-0 pl-0">
                         <h5>Apple announces its 2019 Design Award winners</h5>
-                        <p class="card-text">Apple  doled out its 2019 Design Awards at its Worldwide Developer Conference this afternoon,
+                        <p class="card-text mb-3">Apple  doled out its 2019 Design Awards at its Worldwide Developer Conference this afternoon,
                              highlighting a range of 
                             . . . </p>
                         <a href="index.php?view=news">READ MORE <i class="fa fa-angle-right" aria-hidden="true"></i></a>
@@ -410,7 +409,7 @@
                 <div class="card text-center"><img class="card-img-top" src="{{ asset('') }}TW/images/news/watch-news.jpg" alt="">
                     <div class="card-body text-left pr-0 pl-0">
                         <h5>Withings Move Activity Tracking Watch</h5>
-                        <p class="card-text">Withings Move, the new smartwatch from Withings,
+                        <p class="card-text mb-3">Withings Move, the new smartwatch from Withings,
                              monitors your activity and your sleep. It has a GPS tracker and syncs with
                             . . . </p>
                         <a href="index.php?view=news">READ MORE <i class="fa fa-angle-right" aria-hidden="true"></i></a>
@@ -421,7 +420,7 @@
                 <div class="card text-center"><img class="card-img-top" src="{{ asset('') }}TW/images/news/intel-news.jpg" alt="">
                     <div class="card-body text-left pr-0 pl-0">
                         <h5>Devices built with Intel’s Ice Lake and Project Athena specifications</h5>
-                        <p class="card-text">The company also unveiled Intel’s new
+                        <p class="card-text mb-3">The company also unveiled Intel’s new
                              class of laptops, Project Athena. Laptops built to Athena 1.0 specifications
                             . . . </p>
                         <a href="index.php?view=news">READ MORE <i class="fa fa-angle-right" aria-hidden="true"></i></a>
@@ -433,7 +432,7 @@
                 <div class="card text-center"><img class="card-img-top" src="{{ asset('') }}TW/images/news/device-news.jpg" alt="">
                     <div class="card-body text-left pr-0 pl-0">
                         <h5>MoodoGo Portable Diffuser</h5>
-                        <p class="card-text">Apple  doled out its 2019 Design Awards at its Worldwide Developer Conference this afternoon,
+                        <p class="card-text mb-3">Apple  doled out its 2019 Design Awards at its Worldwide Developer Conference this afternoon,
                              highlighting a range of aps that work as beautifully
                             . . . </p>
                         <a href="index.php?view=news">READ MORE <i class="fa fa-angle-right" aria-hidden="true"></i></a>
