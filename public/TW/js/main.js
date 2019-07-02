@@ -15,11 +15,11 @@
                     nav: false
                 },
                 600: {
-                    items: 3,
+                    items: 1,
                     nav: false
                 },
                 800: {
-                    items: 3,
+                    items: 1,
                     nav: true
                 },
                 1000: {
@@ -40,11 +40,11 @@
             responsiveClass: true,
             responsive: {
                 0: {
-                    items: 3,
+                    items: 1,
                     nav: false
                 },
                 600: {
-                    items: 3,
+                    items: 5,
                     nav: false
                 },
                 800: {
@@ -100,4 +100,19 @@
 // menu toggle button
 function myFunction(x) {
     x.classList.toggle("change");
+}
+
+window.onscroll = function() {
+    myFunction()
+};
+
+var header = document.getElementById("gtco-main-nav");
+var sticky = header.offsetTop;
+
+function myFunction() {
+  if (window.pageYOffset > sticky) {
+    header.classList.add("sticky");
+} else {
+    header.classList.remove("sticky");
+}
 }
