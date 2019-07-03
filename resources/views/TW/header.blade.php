@@ -44,13 +44,17 @@
                 <li class="nav-item"><a class="nav-link" href="#about">About</a></li>
                 <li class="nav-item"><a class="nav-link" href="#news">News</a></li>
                 <li class="nav-item"><a class="nav-link" href="#contact">Contact</a></li>
-                <li class="nav-item ml-auto float-right">
-                    <select class="selectpicker" data-width="fit">
-                        <option style="text-transform: capitalize;font-size: 15px;padding: 0;" data-content='<span class="flag-icon flag-icon-us"></span> English'>English</option>
-                        <option style="text-transform: capitalize;font-size: 15px;padding: 0;" data-content='<span class="flag-icon flag-icon-vn"></span> Việt Nam'>Vietnam</option>
-                    </select>
-                </li>
             </ul>
+            <div class="float-right">
+                <span class="mr-2">
+                    <input type="radio" name="language" value="eng" style="display: inline-block;">
+                    <span class="flag-icon flag-icon-us"></span> English
+                </span>
+                <span>
+                    <input type="radio" name="language" value="vn" style="display: inline-block;">
+                    <span class="flag-icon flag-icon-vn"></span> Việt Nam
+                </span>
+            </div>
         </div>
     </div>
 </nav>
