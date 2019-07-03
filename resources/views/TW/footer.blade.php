@@ -62,7 +62,7 @@
 
                                     <div class="col-12">
                                         <p>&copy; 2019. All Rights Reserved. Design by <a href="https://gettemplates.co"
-                                            target="_blank" class="text-warning">Talent Wins</a>.</p>
+                                            target="_blank" class="text-warning">Gosu28</a>.</p>
                                         </div>
                                     </div>
                                 </div>

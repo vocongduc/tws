@@ -116,3 +116,7 @@ function myFunction() {
     header.classList.remove("sticky");
 }
 }
+
+// $(function(){
+//     $('.selectpicker').selectpicker();
+// });
