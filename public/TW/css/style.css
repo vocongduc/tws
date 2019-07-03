@@ -653,6 +653,7 @@ body {
 }
 
 #gtco-footer {
+  padding-top: 50px;
   padding-bottom: 20px;
 }
 #gtco-footer h4 {
@@ -726,7 +727,7 @@ body {
 }
 /* When scroll page */
 .sticky {
-  position: fixed;
+  position: fixed!important;
   top: 0;
   width: 100%;
   background-image: linear-gradient(120deg, #fdfbfb 0%, #ebedee 100%)!important;
@@ -812,4 +813,33 @@ ul .services-info i {
     background-color: transparent;
     border: 1px solid transparent;
     border-radius: .25rem;
+}
+.tab-content .content ul {
+  padding: 1% 0;
+}
+.tab-content .content ul li {
+  padding: 0 1%;
+  border-right: 1px solid;
+}
+.tab-content .content ul li:hover a {
+  background-color: transparent!important;
+}
+.tab-content .content ul li a {
+  text-align: center;
+  padding: 0;
+  font-size: 12px;
+}
+.tab-content .content ul li
+.tab-content .content ul li:last-child{
+  border-right: none;
+}
+.col-lg-6.text-center {
+  margin: auto;
+}
+span.bs-caret {
+  display: none!important;
+}
+.dropdown-menu {
+  margin: 0!important;
+  padding: 0!important;
 }
