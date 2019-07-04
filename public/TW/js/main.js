@@ -97,26 +97,6 @@
 
 }());
 
-// menu toggle button
-function myFunction(x) {
-    x.classList.toggle("change");
-}
-
 window.onscroll = function() {
     myFunction()
 };
-
-var header = document.getElementById("gtco-main-nav");
-var sticky = header.offsetTop;
-
-function myFunction() {
-  if (window.pageYOffset > sticky) {
-    header.classList.add("sticky");
-} else {
-    header.classList.remove("sticky");
-}
-}
-
-// $(function(){
-//     $('.selectpicker').selectpicker();
-// });

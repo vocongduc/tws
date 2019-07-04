@@ -2,6 +2,7 @@
  * Solution by GetTemplates.co
  * URL: https://GetTemplates.co
  */
+body,html {width: 100%;}
 @font-face {
   font-family: "Lato-Regular";
   src: url(../fonts/Lato-Regular.ttf);
@@ -100,6 +101,7 @@ body {
   color: #666666;
   padding: 5px 15px !important;
   text-transform: uppercase;
+  text-decoration: none;
 }
 #gtco-main-nav form a {
   font-family: "OpenSans-Semibold";
@@ -121,6 +123,9 @@ body {
   #gtco-main-nav form a.btn-outline-dark {
     border-color: #1d3ede;
     color: #1d3ede;
+  }
+  .float-right span label {
+    display: none;
   }
 }
 
@@ -214,6 +219,8 @@ body {
   .gtco-banner-area .col-md-6 .card .card-img-top {
     margin-top: 100px;
   }
+}
+@media (min-width: 768px) {
 }
 
 .gtco-feature {
@@ -433,12 +440,17 @@ body {
     line-height: 1.1;
   }
 }
+@media (max-width: 425px) {
+  #my-nav ul li a {
+    padding-left: 5%!important;
+  }
+  #my-nav ul li {
+    padding-left: 7%!important;
+  }
+}
 @media (max-width: 500px) {
   .gtco-numbers-block p {
     font-size: 14px;
-  }
-  .sticky .navbar-toggler {
-    margin-right: 0px;
   }
 }
 
@@ -449,6 +461,12 @@ body {
 @media (max-width: 767px) {
   .gtco-testimonials {
     margin-top: 100px;
+  }
+  #my-nav ul li a {
+    padding-left: 5%!important;
+  }
+  #my-nav ul li {
+    padding-left: 7%!important;
   }
 }
 .gtco-testimonials h2 {
@@ -725,23 +743,6 @@ body {
     margin-bottom: 50px;
   }
 }
-/* When scroll page */
-.sticky {
-  position: fixed!important;
-  top: 0;
-  width: 100%;
-  background-image: linear-gradient(120deg, #fdfbfb 0%, #ebedee 100%)!important;
-  z-index: 2;
-}
-.sticky #my-nav ul li a {
-  color: black;
-}
-.dropbtn {
-  color: white;
-  padding: 15px;
-  font-size: 15px;
-  border: none;
-}
 
 .dropdown {
   position: relative;
@@ -815,11 +816,11 @@ ul .services-info i {
     border-radius: .25rem;
 }
 .tab-content .content ul {
-  padding: 1% 0;
+  padding: 2% 1%;
 }
 .tab-content .content ul li {
   padding: 0 1%;
-  border-right: 1px solid;
+  border-right: 1px solid #ccc;
 }
 .tab-content .content ul li:hover a {
   background-color: transparent!important;
@@ -829,18 +830,20 @@ ul .services-info i {
   padding: 0;
   font-size: 12px;
 }
-.tab-content .content ul li
-.tab-content .content ul li:last-child{
+.tab-content .content ul li:last-child {
   border-right: none;
 }
 .col-lg-6.text-center {
   margin: auto;
 }
-span.bs-caret {
-  display: none!important;
+.nav-tabs .nav-item.show .nav-link, .nav-tabs .nav-link.active {
+  background-color: gainsboro;
 }
-.dropdown-menu {
-  margin: 0!important;
-  padding: 0!important;
+#my-nav ul li input {
+  position: relative;
+  top: 2px;
+  left: -2px;
 }
-
+.navbar-fixed-top {
+  background-color: gray;
+}
