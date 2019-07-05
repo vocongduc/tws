@@ -1,6 +1,6 @@
 @extends('TW.index')
 @section('content')
-<div class="container-fluid gtco-banner-area">
+<div class="container-fluid gtco-banner-area" style="padding-top: 125px;">
     <div class="container">
         <div class="row">
             <div class="col-12 col-sm-12 col-md-6 col-lg-6">
