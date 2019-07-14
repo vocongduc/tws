@@ -10,7 +10,6 @@
 
 
     <!-- awesone fonts css-->
-    <link href="{{ asset('') }}TW/css/font-awesome.css" rel="stylesheet" type="text/css">
     <!-- owl carousel css-->
     <link rel="stylesheet" href="{{ asset('') }}TW/owl-carousel/assets/owl.carousel.min.css" type="text/css">
     <!-- Bootstrap CSS -->
@@ -19,11 +18,9 @@
     <!-- custom CSS -->
     <link rel="stylesheet" href="{{ asset('') }}TW/css/style.css">
     <link rel="stylesheet" href="{{ asset('') }}TW/css/main.css">
+    <link rel="stylesheet" href="{{ asset('') }}css/accordion-menu.css">
     <link rel="stylesheet" href="{{ asset('') }}../node_modules/flag-icon-css/css/flag-icon.min.css">
     <link rel="stylesheet" href="{{ asset('') }}TW/css/util.css">
-    <link rel="stylesheet" href="http://maxcdn.bootstrapcdn.com/bootstrap/3.2.0/css/bootstrap.min.css">
-    <link rel="stylesheet" href="http://maxcdn.bootstrapcdn.com/bootstrap/3.2.0/css/bootstrap-theme.min.css">
-    
     <title>Talent Wins</title>
     <style>
 
@@ -40,14 +37,31 @@
 
     <!-- Optional JavaScript -->
     <!-- jQuery first, then Popper.js, then Bootstrap JS -->
-    <script src="{{ asset('') }}TW/js/jquery-3.3.1.slim.min.js"></script>
+    <script src="https://kit.fontawesome.com/b43442a51c.js"></script>
+    <script src="{{ asset('') }}TW/js/jquery-3.4.1.min.js"></script>
     <script src="{{ asset('') }}TW/js/popper.min.js"></script>
     <script src="{{ asset('') }}TW/js/bootstrap.min.js"></script>
+    
+   
     <script src="https://cdnjs.cloudflare.com/ajax/libs/bootstrap-select/1.12.2/js/bootstrap-select.min.js"></script>
 
     <!-- owl carousel js-->
     <script src="{{ asset('') }}TW/owl-carousel/owl.carousel.min.js"></script>
+    <script src="{{ asset('') }}js/accordion-menu.js"></script>
     <script src="{{ asset('') }}TW/js/main.js"></script>
+
+    <script>
+        $(function () {
+          $(".accordion-1 .accordion-item .content").slideUp();
+
+
+          $(".accordion-1 .accordion-item h3 ").click(function (e) { 
+              $(this).next(".content").slideToggle();
+            
+          });
+        });
+      
+    </script>
 </body>
 
 </html>
