@@ -1,6 +1,6 @@
 @extends('TW.index')
 @section('content')
-<div class="container-fluid gtco-banner-area" style="padding-top: 125px;">
+<div class="container-fluid gtco-banner-area" style="margin-top:125px;">
     <div class="container">
         <div class="row">
             <div class="col-12 col-sm-12 col-md-6 col-lg-6">
@@ -59,7 +59,7 @@
                         dictum id neque.
                     </small>
                 </p>
-                <a href="{{route('dev')}}">Learn More <i class="fa fa-angle-right" aria-hidden="true"></i></a>
+                <a href="">Learn More <i class="fa fa-angle-right" aria-hidden="true"></i></a>
             </div>
         </div>
     </div>
